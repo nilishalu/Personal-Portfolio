@@ -1,0 +1,50 @@
+#skills {
+    padding-top: 6rem;
+    background-color: var(--color-bg-variant);
+}
+
+#skills h2 {
+    color: var(--color-bg);
+    margin-bottom: -1rem;
+}
+
+#skills h5 {
+    color: var(--color-bg);
+}
+
+#skills h4 {
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 15rem;
+    margin-top: 2rem;
+}
+
+.skills-container {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+
+.skills-card {
+    display: flex;
+}
+
+.tech {
+    margin-top: 0.6rem;
+    margin-left: -1rem;
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.te {
+    color: rgb(61, 54, 54);
+    font-size: 1.2rem;
+    padding-right: 3rem;
+}
+
+.skills-card li {
+    font-size: 1.2rem;
+    color: rgb(61, 54, 54);
+}

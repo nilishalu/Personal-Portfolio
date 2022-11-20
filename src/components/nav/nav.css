@@ -1,0 +1,85 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*/
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    /* padding: 15px 0px; */
+    /* font-family: "Ubuntu", sans-serif; */
+    transition: all 0.3s ease;
+    z-index: 999;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.navbar .max-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+
+.navbar .sticky {
+    position: fixed;
+    padding: 15px 0;
+    background-color: #b89aa7;
+}
+  
+  .navbar .logo a {
+    font-size: 35px;
+    /* color: #0d082b; */
+    color: white;
+    font-weight: 800;
+  }
+    
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-left: 30px;
+    transition: color 0.5s ease;
+  }
+  
+  .navbar .menu li a {
+    /* color: #0d082b; */
+    color: white;
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar .menu li a:hover {
+    color: rgb(233, 165, 165);
+    transition: all 0.3s ease;
+  }
+  
+  .navbar.sticky .menu li a:hover {
+    color: #35152b;
+  }
+
+.navbar a.active {
+    background: var(--color-bg);
+    color: white;
+    text-decoration: underline;
+}
+      
+  @media screen and (max-width: 1024px) {
+    .navbar {
+       
+    }
+    section {
+      margin-top: 6rem;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+      .navbar {
+        display: flex;
+        flex-direction: column;
+      }
+      section > h2 {
+        margin-bottom: 2rem;
+      }
+    }
