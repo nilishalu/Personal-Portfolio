@@ -1,4 +1,5 @@
 import React from 'react'
+import {ProgressBar} from 'react-bootstrap/ProgressBar'
 import './skills.css'
 
 const Skills = () => {
@@ -41,6 +42,7 @@ const Skills = () => {
            <div className='skills-card'>
            <ul>
                 <li>VSCode</li>
+                {/* <ProgressBar now = {60}/> */}
                 <li>VSCode</li>
                 <li>VSCode</li>
                 <li>VSCode</li>
