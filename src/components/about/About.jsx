@@ -6,7 +6,6 @@ const About = () => {
     <section id = "about">
       <div className='about'>
       <h2>About Me</h2>
-      <h5>Who I am</h5>
 
       <div className="container about__container">
         <div className='space'></div>
@@ -25,7 +24,7 @@ const About = () => {
           I am an optmistic person who wishes to see the positive
           sides of a situation to make the best use of it.
           <br />
-          <a href="" className='btn'>Hire me</a>
+          <a href="" className='btn hire'>Hire me</a>
         </div>
       </div>
       </div>
