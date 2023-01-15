@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+.contact {
+    background-color: var(--color-bg-variant);
+    min-height: 100vh;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.contact h1 {
+    font-size: 4rem;
+}
